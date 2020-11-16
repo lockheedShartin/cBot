@@ -2,17 +2,15 @@
 # Plugin Installation
 
 1. Make sure you are using a modern browser of some sort(preferably firefox or google)
-2. Follow the installation instructions for the injector plugin at: https://github.com/Lor-Saba/Code-Injector#Installation
+2. Follow the [installation instructions](https://github.com/Lor-Saba/Code-Injector#Installation) for installing the injector browser plugin/extension
 
 ## Setup
 1. Open the plugin/extension by clicking on its icon in the top right of your browser(or wherever your browser of choice shows its plugins)
 2. Click "add rule" in the bottom left of the window
 3. In the top, where it says "URL pattern", input `https://courses.letu.edu/*`
-    this determines what page(s) the JS runs on and is very simple to modify to your needs(syntax can be found at: https://github.com/Lor-Saba/Code-Injector#rules-structure)
+    this determines what page(s) the JS runs on and is very simple to modify to your needs([syntax](https://github.com/Lor-Saba/Code-Injector#rules-structure))
 
-4. Copy the source from below into the space under where it says "Type your JavaScript code here"
-```
-```
+4. Copy the [source](https://github.com/lockheedShartin/cBot/blob/main/revisedjewbot.js) into the space under where it says "Type your JavaScript code here"
 5. Make sure only the "On Page Load" box is checked in the bottom left
 6. Click **save** in the bottom right
 
