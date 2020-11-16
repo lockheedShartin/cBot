@@ -1,5 +1,4 @@
-
-# Plugin Installation
+## Plugin Installation
 
 1. Make sure you are using a modern browser of some sort(preferably firefox or google)
 2. Follow the [installation instructions](https://github.com/Lor-Saba/Code-Injector#Installation) for installing the injector browser plugin/extension
@@ -34,6 +33,10 @@ BEFORE YOU GO TO ANOTHER QUIZ, JUST RESTART YOUR BROWSER. (this will be fixed at
 
 ## Disclaimer
 I am in no way responsible for how you use this or what consequences come about from you using this.
+
+---
+
+![img](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F78.media.tumblr.com%2F605b647c5219e9b9d900966051f5f010%2Ftumblr_o3835eeQO11v0pigno1_640.png&f=1&nofb=1)
 
 Donations are appreciated
 
