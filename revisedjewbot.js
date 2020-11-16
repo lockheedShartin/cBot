@@ -51,7 +51,7 @@ var experimental = false;
 
 //unblocks console commands
 if (!("console" in window) || !("firebug" in console)) { 
-    console.log = null;
+    console.log = null; 
     console.log; // null
 
     delete console.log;
