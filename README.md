@@ -32,6 +32,10 @@ BEFORE YOU GO TO ANOTHER QUIZ, JUST RESTART YOUR BROWSER. (this will be fixed at
   This will recover the process from halting from going too fast
 - If it has completely crashed and you **have** to harvest the data so you can restart the browser and continue, let me know
 
+## Disclaimer
+I am in no way responsible for how you use this or what consequences come about from you using this.
+
+Donations are appreciated
 
 
 
@@ -49,4 +53,6 @@ BEFORE YOU GO TO ANOTHER QUIZ, JUST RESTART YOUR BROWSER. (this will be fixed at
  * permission of the copyright holders.  If you encounter this file and do not have
  * permission, please contact the copyright holders and delete this file.
 ```
+
+
 
