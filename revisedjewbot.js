@@ -47,7 +47,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmss/-/ymmmmNNNmmmmmmmmNNmmNNNmmmdy:-yhhysNMMMMMMMM
 */
 
 
-var experimental == false;
+var experimental = false;
 
 //unblocks console commands
 if (!("console" in window) || !("firebug" in console)) { 
