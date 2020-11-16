@@ -2,7 +2,7 @@
 # Plugin Installation
 
 1. Make sure you are using a modern browser of some sort(preferably firefox or google)
-2. Follow the installation instructions for the injector plugin at https://github.com/Lor-Saba/Code-Injector#Installation
+2. Follow the installation instructions for the injector plugin at: https://github.com/Lor-Saba/Code-Injector#Installation
 
 ## Setup
 1. Open the plugin/extension by clicking on its icon in the top right of your browser(or wherever your browser of choice shows its plugins)
