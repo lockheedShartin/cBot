@@ -1,57 +1,8 @@
-/*
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmddmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdhyyhdhyyo+osmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyddyhMMMNmdyo+/oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmymNyohMMMMNNNms+++MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNsmNMNdmMMMMMNNNmh+:+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMsyNMMMNNMMMMMMMMNmd/`hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMshNNMMMMMMMMMMMMNNh::oMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMydmmNNMMMMMMMMNMNh:`-+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMhdmNddNNNNNNNNNNy/```sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMhsmmmhsoooooooooss:``sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd+hshmmdddddddmmdy-.:sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm+y+:dNNNNNMNNNmh+.:+ohmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+hs-smNNNMMNNNmh:-/shdmdhhmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdoy+:dmNMMMNNmmy-:+hmNNmy/-+hmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMhso/hmNMMMNNhds-:hmNms++shdmdhydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdoosdNNMMNmms:-ommy/sdNNNNmdds+smMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmys+hmNNNNNdy:+so+/hNNNNNNNNNmhsohMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMsso:sdNMNmmy++//s/-dNdhmmmNNNNmmdhsdMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo/`oddmNmdds+.++/hmhsshddmNNNNmmmdyydNMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN:./symNNmyoo/oymNm+...:+sdmmNmmmmmds+hNMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN.:ohmNNmh+-.:hNNNmmdy+:.`./shdmddmmmd++hNMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd.:+ddhyyo-  -dmNMNNNNNmhs/.`.:////oyhhyyyhmMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy`:os++ss+`  omNNMMMMMMNNNmdyooooo/../hmmydhhmMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs`-+oooso-  -ymNNMMMMMMMMNNNNNNNNmmhsso+oydddhhdNMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMo`:/+ooo/` `odNNNMMMMMMMMNNNNNNNmNNNmds:.-/shhdhhhNMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmh+.:///++-  /ymNNMMMMMMMMMNMMmNNNNNNNNNmmhs:.-+yddyyhmMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhyydh:/o+/+/  -ohmNNMMMMMMMMMNNMmmNNNNNNNNNNNmmh+-.+yo+//sNMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMNNmmddmddmNNmy+o+++. `+ydNNNMMMMMMMMMMMNNmhdmmNNNNNNNNNNmdyhmmds-/oMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMNys/oyshmmmdmNNNmdoooo+` :shddmNNNMMMMMMNNNNmmmmhsydmmNNNNNNmmmmNmhho-:yMMMM
-MMMMMMMMMMMMMMMNNmdyso+/:-:-/ydmmhyhmNmdhyso/sy:`/yddddmNNNNNNNNNNNNNmdhhsMNmdhhdmmddmNmNmmss+.:MMMM
-MMMMMMMMMMMNmyo///+ooooooyhhhdmmo/oshdmmMN+o++ys/::oydmmmNmNNNNNNNNmmddhsdMMMMMMNmosdmNmNmdhys.:dMMM
-MMMMMMMMNho//oyhhhys+/////++oydmh/mMMMMMMMs:yysysoso:/sdmNmNNNNNNNNmdmdysMMMMMMMMMhodmmdNddhhy-:hMMM
-MMMMMMNs:/oyhysosyhdmdmdohyho-sddsNMMMMMMMm./+osho/shy+:/yhmmmmNNNNmhhyodMMMMMMMMMNohdmmNddhhy::hMMM
-MMMMMd:/ydyo+ohmMMMMMMMNhddmh/sdhmMMMMMMMMM/oo++ymds/sddyo++-:+syhmmyssyMMMmddhdhyysoosyyhddds-:mMMM
-MMMMM.ohdy:ohmMMMMMMNmNNNNmdyyhdNMMMMMMMMMM+shossydmdo/ydmhdyo:..-+shssmMmddmmdmmh:+yss+::+sho-/MMMM
-MMMMM:ydh+-hmmmmmNmdmmNNmdhydmNMMMMMMMMMMMs++ymhdmdmmmho+hhddddhs/../+yMMNmmmmmdhy+hmshyoo:+o+-dMMMM
-MMMMMdshhy++shdmmNmdddhyhdmMMMMMMMMMMMMMMh-++-hmmmmmmmmmdh++hhdddhy:`:hMMMMMMMMMMsdhyshdmh--oooMMMMM
-MMMMMMMmmdhhhhhhhddddmNMMMMMMMMMMMMMMMMmho-//o+mNmNNmmmmmmdo:syyyhdh+.oMMMMMMMMMMMMMmoyddds-+sMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMo+y:+:hdmNmNNNNmmNmmdy/:ss+sss++dMMMMMMMMMMMMMNoshmdhMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNso+shhdmmNNNNNNNNNmmmmdyoossssyyymMMMMMMMMMMMMMNsdNmddMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdss/.ymNNNNNNNmmmmmmmmmmdhs+:/:::-/MMMMMMMMMMMMMMNhyymdNMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyhyo-:hmNNNNNNNNNNNNNmmmmdhys./+:./+oMMMMMMMMMMMMMMMymmdmMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdsyo-:sdmNNNmNmNmmmNNNNNmmmdhdhyooo+/+oMMMMMMMMMMMMMMMmmNMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmss/-/ymmmmNNNmmmmmmmmNNmmNNNmmmdy:-yhhysNMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-*/
-
-
 var experimental = false;
 
 //unblocks console commands
-if (!("console" in window) || !("firebug" in console)) { 
-    console.log = null; 
+if (!("console" in window) || !("firebug" in console)) {
+    console.log = null;
     console.log; // null
 
     delete console.log;
@@ -70,7 +21,7 @@ window.confirm = function() {
 
 //enhance privacy by blocking their js spyware
 //allows "tabbing-out" and minimizing the window with/o site knowing for ex.
-window.addEventListener("visibilitychange", function(event) { 
+window.addEventListener("visibilitychange", function(event) {
     event.stopPropagation();
     console.log("invasive js blocked: " + event);
 }, true);
@@ -141,12 +92,19 @@ if (document.querySelector("header.quiz-header h1").id == "") {
     }
 
     try {
+      if(!isNaN(parseFloat(sessionStorage.known)))
+        {
         var known = parseFloat(sessionStorage.known);
       console.log("succesfully pulled \"known\" incrementer from SS");
+        }
+      else
+        {
+          var known = 0;
+        }
     } catch (e) {
         console.log("known blank");
     }
-  
+
   try {
         var seen = JSON.parse(sessionStorage.seen);
       console.log("succesfully pulled list of seen questions from SS");
@@ -154,6 +112,11 @@ if (document.querySelector("header.quiz-header h1").id == "") {
         console.log("no questions have been seen yet, creating array");
       	var seen = [];
     }
+
+
+    //find next button
+    var nextButton = document.querySelector("Button.submit_button.next-question");
+
 
 
 
@@ -164,7 +127,7 @@ if (document.querySelector("header.quiz-header h1").id == "") {
   	var numQuestions = document.querySelectorAll("#question_list li").length;
     //store what question is being asked
     var question = document.querySelector("div.question_text p").innerText;
-  
+
   	console.log("---LOG QUESTION---");
   	//add question to list of seen questions
   var seenBool = false;
@@ -176,37 +139,46 @@ if(seen.length > 0)
           seenBool = true;
           console.log("we've already seen this question")
         }
-        
+
       }
-    
+
     	if(!seenBool){
         seen.push(question);
       }
-    
-  
+
+
   	
     }
-  
+
    //push seen questions back onto SS
       sessionStorage.seen = JSON.stringify(seen);
-  
+
   if(seen.length > numQuestions)
         {
           console.log("!!!There are more questions in the pool than there are questions themselves!!!");
           console.log("No. of Questions that could not be on this instance: "+(seen.length - numQuestions));
         }
-  
-  
-  
-      
-     
-     
+
+
+
+
+
+
   	
 
     //pulls list of answer row DOM objects
     var optionNodes = document.querySelectorAll("div.answer label.answer_row");
     //convert to array
-    var optionNodeArray = Array.from(optionNodes);
+  	//make sure if array exists from last page that we wipe it clean
+  if(optionNodeArray)
+    {
+      optionNodeArray = Array.from(optionNodes);
+    }
+  else
+    {
+      var optionNodeArray = Array.from(optionNodes)
+    }
+
 
 
 
@@ -218,36 +190,59 @@ if(seen.length > 0)
     //
     console.log("---ELIMINATING OPTIONS---");
 
+  // print options, even invis ones
+  /*for (var xx = 0; xx < optionNodeArray.length; xx++) {
+    console.log("Option "+i+": "+optionNodeArray[xx].getElementsByClassName("answer_label")[0].innerText);
+  }
+  */
+
     if (badAnswers) {
         for (var z = 0; z < optionNodeArray.length; z++) {
             for (var y = 0; y < badAnswers.length; y++) {
                 if (optionNodeArray.length != 0) {
-                    if (badAnswers[y] == optionNodeArray[z].getElementsByClassName("answer_label")[0].innerText || optionNodeArray[z].getElementsByClassName("answer_label")[0].innerText == "") { //check to make sure there is an option left by doing >= 2 //the second condition is there to remove blank options because whoever is making the quizzes apparently got lazy or something
-                        console.log("Option: " + badAnswers[y] + " ELIMINATED");
-                        console.log("optionNodeArray length: " + optionNodeArray.length);
+                    if (badAnswers[y] == optionNodeArray[z].getElementsByClassName("answer_label")[0].innerText) { //check to make sure there is an option left by doing >= 2 //the second condition is there to remove blank options because whoever is making the quizzes apparently got lazy or something
+                      	
+                      //logging the result with the actual option instead of the badanswer would be better
+                        console.log("Option: " + badAnswers[y] + " ELIMINATED \nType: "+typeof badAnswers[y]+"\nAgainst option \""+optionNodeArray[z].getElementsByClassName("answer_label")[0].innerText+"\"");
+                        //debug console.log("optionNodeArray length: " + optionNodeArray.length);
 
                         //do wizardry to subtract from a node-list because node-lists don't behave like arrays because they are "live". So you have to convert them to an array.
                         optionNodeArray.splice(z, 1);
 
-                        console.log("optionNodeArray length: " + optionNodeArray.length);
+                        //debug console.log("optionNodeArray length: " + optionNodeArray.length);
 
                         //make z index go back to 0 since it has been shortened
                         z = 0;
-                        console.log("z index: " + z);
 
 
 
+
+
+                    }
+                  else if(optionNodeArray[z].getElementsByClassName("answer_label")[0].innerText === "") //remove blank options
+                    {
+                      console.log("Blank Option - ELIMINATED");
+                        //debug console.log("optionNodeArray length: " + optionNodeArray.length);
+
+                        //do wizardry to subtract from a node-list because node-lists don't behave like arrays because they are "live". So you have to convert them to an array.
+                        optionNodeArray.splice(z, 1);
+
+                        //debug console.log("optionNodeArray length: " + optionNodeArray.length);
+
+                        //make z index go back to 0 since it has been shortened
+                        z = 0;
 
                     }
                 } else {
                     console.log("I think all of the wrong answers were eliminated but the correct answer is also an incorrect answer from another problem. Skipping to the next question"); // this could probably be fixed with matrix's
                     if (known >= 0.1) {
                         known -= 0.1;
+                        console.log("HEY DUDE, LOOK AT ME");
                     }
 
                     //ignore issue and go to next question
                     console.log("clicking next button");
-                    document.querySelector("Button.submit_button.next-question").click();
+                    nextButton.click();
                     throw '';
 
 
@@ -257,6 +252,12 @@ if(seen.length > 0)
                 }
             }
         }
+    }
+
+  //print optionArray
+  for(var m; m < optionNodeArray.length; m++)
+    {
+      console.log("oNA["+i+"]: "+optionNodeArray[m]);
     }
 
 
@@ -271,9 +272,8 @@ if(seen.length > 0)
 
     //Checks if questions has already been solved
     if (correctAnswers) {
-        for (var q = 0; q < (questions.length); q++) {
-            if (question == questions[q]) {
-                console.log("Question found in db");
+
+                console.log("looking for answer in DB");
                 console.log(optionNodeArray.length + " options to compare to " + correctAnswers.length + " correctAnswers");
                 for (var p = 0; p < optionNodeArray.length; p++) { //loop through options first because the options are the limiting factor. Ie. there could be more answers than options.
                     for (var b = 0; b < correctAnswers.length; b++) {
@@ -285,7 +285,7 @@ if(seen.length > 0)
 
 
                             //checks radio button NOTE: this will be overwritten if program doesn't go to the next page because of line 124
-                            console.log("Using answer found in local database");
+
 
                             //for every object in optionNodes, check and see if it's text is equal to that of its array counterparts text at index p
                             //if it is then mark it as the choice
@@ -309,20 +309,22 @@ if(seen.length > 0)
                             //if this is the first known then just initialize at 0
                           	
                           	console.log("known b4 incrementing: "+known);
-                            console.log("incrementing known");
-                            known += 0.1;
-                        
-                          	console.log("known after incrementing: "+known);
-                            sessionStorage.known = null;
                           	known.toFixed(2);
-                          console.log(sessionStorage.known);
+                            console.log("known b4 incrementing after fixed(2): "+known);
+
+                            known += 0.1;
+                          	console.log("known after incrementing: "+known);
+
+                            sessionStorage.known = null;
                           	sessionStorage.known = known;
 
 
                             //press next button
                             console.log("clicking next button");
-                            if (document.querySelector("Button.submit_button.next-question") != null) {
-                                document.querySelector("Button.submit_button.next-question").click();
+
+
+                            if (nextButton != null) {
+                                nextButton.click();
                                 throw 'preventing race condition, i am';
                             } else {
                                 console.log("is it the last question? No next button was found.");
@@ -332,10 +334,11 @@ if(seen.length > 0)
                                 }
                               else
                                 {
-                                  alert("something went wrong. There seems to be questions we didn't have the answer to, despite what the DB says...");
+                                  console.log("something went wrong. There seems to be questions we didn't have the answer to, despite what the DB says...");
                                 }
 
                             }
+
 
 
                         } else {
@@ -361,23 +364,25 @@ if(seen.length > 0)
 
 
 
-        }
 
 
-    }
+
+
+
+
 
 
 	//DECIDE WHAT TO PICK IF RANDOMLY GUESSING
 	
     //decide which option to guessObject
     //generate random number from 0-(amount of options) for picking the option at random
-  
+
   var optionIndex = Math.floor(Math.random() * (optionNodeArray.length));
-  
+
   //all this logic does is match up the optionNodeArray index to the nodelist's index for the same object
   for (var i = 0; i < optionNodes.length; i++) {
                                 if (optionNodeArray[optionIndex].getElementsByClassName("answer_label")[0].innerText == optionNodes[i].getElementsByClassName("answer_label")[0].innerText) {
-                                  var guessNode = optionNodes[i]; 
+                                  var guessNode = optionNodes[i];
                                   console.log("Index synchronized");
                                 }
   }
@@ -405,21 +410,45 @@ if(seen.length > 0)
     }
   	
   	
+sessionStorage.known = known;
 
-    sessionStorage.known = known;
+    //if there was only one option to pick from then click next and increment known and add to list of correctanswers
+  if(optionNodeArray.length == 1)
+    {
+      console.log("Guess is assumed correct because all other options were eliminated");
+      console.log("Known: "+known)
 
-    //checks if we have enough answers and click next if that is the case 
+      correctAnswers.push(guess);
+      sessionStorage.correctAnswers = JSON.stringify(correctAnswers);
+      if(!isNaN(known))
+        {
+      known += 0.1;
+        }
+      else
+        {
+          known = 0.1;
+        }
+      
+      sessionStorage.known = known;
+      console.log("known incremented: "+known);
+      sessionStorage.known = known;
+      nextButton.click();
+      throw 'NEXT!'
+    }
+
+
+    //checks if we have enough answers and click next if that is the case
   	if(!!sessionStorage.questions && !!sessionStorage.correctAnswers)
       {
     if (JSON.parse(sessionStorage.questions).length >= 8 && JSON.parse(sessionStorage.correctAnswers).length >= 8 && experimental==true) //skip to next question if bot knows we have enough answers to get 0.8 (so 8 answers)
     {
         console.log("skipping this question because we have enough answers");
-        if (document.querySelector("Button.submit_button.next-question")) { //this is here so that when the bot is on the last question then it can actually hit submit instead of the next button
+        if (nextButton) { //this is here so that when the bot is on the last question then it can actually hit submit instead of the next button
             sessionStorage.known = known;
-            document.querySelector("Button.submit_button.next-question").click();
+            nextButton.click();
             throw 'preventing race I am. allowing bot to go to next question i am';
 
-        } else if (!document.querySelector("Button.submit_button.next-question")) {
+        } else if (!nextButton) {
             sessionStorage.known = known;
             console.log("hitting submit the last time before being done with this quiz!");
             document.querySelector("div.form-actions #submit_quiz_button").click();
@@ -432,8 +461,9 @@ if(seen.length > 0)
       }
 
 
-    //submits quiz
-    console.log("we're about to click submit");
+
+    console.log("we're about to click submit after guessing");
+
     document.querySelector("div.form-actions #submit_quiz_button").click();
 
     //kill script so it actually has time to hit submit
@@ -471,6 +501,8 @@ if(seen.length > 0)
             var known = 0;
             //sessionStorage.known = known; we shouldn't have to touch known in this phase
         }
+
+
     } catch (e) {
         console.log("we probably never clicked next, earlier");
         var known = 0;
@@ -565,6 +597,7 @@ if(seen.length > 0)
             }
         }
         //hit retake since we confirmed that the guess was wrong
+      	sessionStorage.known = 0; //i think this is the fucker that was causing aids
         retakeButton.click();
 
     }
